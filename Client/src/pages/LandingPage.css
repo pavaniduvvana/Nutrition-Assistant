@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f3d2e, #14532d);
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 60px;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  opacity: 0.85;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 22px;
+  background: #22c55e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* DASHBOARD CARD */
+.hero-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 14px;
+  width: 250px;
+  backdrop-filter: blur(10px);
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}

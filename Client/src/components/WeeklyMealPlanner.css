@@ -1,0 +1,49 @@
+.weekly-planner {
+  grid-column: span 2;
+}
+
+.weekly-meals {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;   /* compact spacing */
+  margin-top: 20px;
+}
+
+.day-card {
+  position: relative;
+
+  background: rgba(255,255,255,0.08);
+
+  border-radius: 18px;
+
+  padding: 20px;
+
+  transition: 0.3s;
+}
+
+.day-card:hover {
+  transform: translateY(-3px);
+}
+
+.day-card h3 {
+  margin-bottom: 12px;
+}
+
+.day-card p {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+.heart-btn {
+  position: absolute;
+
+  right: 18px;
+  top: 18px;
+
+  border: none;
+  background: transparent;
+
+  font-size: 24px;
+
+  cursor: pointer;
+}

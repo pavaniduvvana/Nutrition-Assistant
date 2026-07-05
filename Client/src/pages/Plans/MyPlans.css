@@ -1,0 +1,92 @@
+.myplans-page {
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #14532d
+  );
+
+  padding: 40px;
+
+  color: white;
+}
+
+.myplans-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.myplans-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.plan-card {
+  background: rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  margin-bottom: 20px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.plan-card button {
+  margin-top: 15px;
+
+  background: crimson;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    padding: 20px;
+  }
+
+  .myplans-container {
+    width: 95%;
+  }
+}
+
+.search-box {
+  width: 100%;
+  padding: 14px;
+
+  border: 1px solid #ddd;
+  border-radius: 12px;
+
+  margin: 20px 0 30px;
+
+  font-size: 16px;
+}
+
+.pdf-btn {
+  background: #2563eb;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 12px 20px;
+
+  margin: 20px 0;
+
+  cursor: pointer;
+
+  font-size: 15px;
+  font-weight: 600;
+}
