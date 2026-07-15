@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
+console.log("✅ userRoutes loaded");
+
 const {
   registerUser,
   loginUser,
